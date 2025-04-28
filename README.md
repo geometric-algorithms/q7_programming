@@ -1,3 +1,5 @@
+---
+
 # **2D Range Tree Implementation with Fractional Cascading and Comparison**
 
 ## **Contributors**
@@ -11,8 +13,8 @@
 This project implements **2D Range Trees** in two different ways (Approach A and Approach B) to efficiently handle 2D range queries.  
 We have also included a comparison module to evaluate preprocessing and query times of both approaches on datasets of various sizes.
 
-- **A/** : First implementation of the 2D Range Tree (Using pointer-linked Y-trees).
-- **B/** : Optimized implementation of 2D Range Tree (Using array-based Y-structures).
+- **A/** : First implementation of the 2D Range Tree (using pointer-linked Y-trees).
+- **B/** : Enhanced implementation of 2D Range Tree (with **fractional cascading**).
 - **compare.py** : Compares the performance of **A** and **B** on randomly generated datasets.
 - **run.sh** : Convenient shell script to run different parts of the project.
 
@@ -63,11 +65,11 @@ chmod +x run.sh
 
 Then you can run:
 
-| Task                          | Command       | What it does                               |
-| ----------------------------- | ------------- | ------------------------------------------ |
-| Run Version A                 | `./run.sh -a` | Launch Version A (simple 2D range tree)    |
-| Run Version B                 | `./run.sh -b` | Launch Version B (optimized 2D range tree) |
-| Compare A vs B (benchmarking) | `./run.sh -c` | Compare preprocessing and query times      |
+| Task                          | Command       | What it does                                       |
+| ----------------------------- | ------------- | -------------------------------------------------- |
+| Run Version A                 | `./run.sh -a` | Launch Version A (simple 2D range tree)            |
+| Run Version B                 | `./run.sh -b` | Launch Version B (2D range tree with fractional cascading) |
+| Compare A vs B (benchmarking) | `./run.sh -c` | Compare preprocessing and query times             |
 
 ---
 
@@ -133,12 +135,12 @@ Running `./run.sh -c` will:
 
 ## 🧠 Quick Summary
 
-| Component  | Description                                  |
-| ---------- | -------------------------------------------- |
-| Version A  | Baseline 2D Range Tree                       |
-| Version B  | Faster, optimized 2D Range Tree              |
-| compare.py | Tests speed and correctness of both versions |
-| run.sh     | Easy-to-use launcher script                  |
-| input.txt  | Input points file                            |
+| Component  | Description                                           |
+| ---------- | ----------------------------------------------------- |
+| Version A  | Baseline 2D Range Tree                                 |
+| Version B  | 2D Range Tree **with fractional cascading**            |
+| compare.py | Tests speed and correctness of both versions          |
+| run.sh     | Easy-to-use launcher script                           |
+| input.txt  | Input points file                                     |
 
 ---
