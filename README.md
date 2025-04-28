@@ -1,7 +1,3 @@
-Of course! Here's a well-organized `README.md` based on everything you shared and the requirements you mentioned:
-
----
-
 # **2D Range Tree Implementation with Fractional Cascading and Comparison**
 
 ## **Contributors**
