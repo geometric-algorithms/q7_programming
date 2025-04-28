@@ -1,11 +1,24 @@
-# q7_programming
+Of course! Here's a well-organized `README.md` based on everything you shared and the requirements you mentioned:
 
-This project implements two different versions of a **2D Range Tree** for efficient 2D range queries over a set of points:
+---
 
-- **A**: Standard 2D Range Tree with simple associated structures.
-- **B**: Optimized 2D Range Tree with improved associated structures for faster queries.
+# **2D Range Tree Implementation and Comparison**
 
-A comparison script is also included to benchmark both versions.
+## **Contributors**
+- **Jatin Singhal** — Roll No: 22B1277
+- **Aviash Meena** — Roll No: 22B1243
+
+---
+
+## **Project Description**
+
+This project implements **2D Range Trees** in two different ways (Approach A and Approach B) to efficiently handle 2D range queries.  
+We have also included a comparison module to evaluate preprocessing and query times of both approaches on datasets of various sizes.
+
+- **A/** : First implementation of the 2D Range Tree (Using pointer-linked Y-trees).
+- **B/** : Optimized implementation of 2D Range Tree (Using array-based Y-structures).
+- **compare.py** : Compares the performance of **A** and **B** on randomly generated datasets.
+- **run.sh** : Convenient shell script to run different parts of the project.
 
 ---
 
