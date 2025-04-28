@@ -2,7 +2,7 @@ Of course! Here's a well-organized `README.md` based on everything you shared an
 
 ---
 
-# **2D Range Tree Implementation and Comparison**
+# **2D Range Tree Implementation with Fractional Cascading and Comparison**
 
 ## **Contributors**
 - **Jatin Singhal** — Roll No: 22B1277
