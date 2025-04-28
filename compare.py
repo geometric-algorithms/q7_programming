@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from A.A import query as query_a, preprocess as preprocess_a
 from B.B import preprocess as preprocess_b, query as query_b
 
-Ns = [100,200,300,400, 500,600,700,800,900, 1000, 2000,3000,4000,
+Ns = [100,200,300,400, 500, 1000, 2000,3000,4000,
       5000,6000,7000,8000,9000,10000,20000,30000,40000,50000]
 
 pre_times_a = []
