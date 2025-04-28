@@ -1,5 +1,3 @@
----
-
 # **2D Range Tree Implementation with Fractional Cascading and Comparison**
 
 ## **Contributors**
